@@ -1,0 +1,22 @@
+{
+  "name": "macaw-cli-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cli-one": "./bin/cli-one.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@darkobits/lolcatjs": "^3.1.5",
+    "commander": "^9.3.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.0.0",
+    "ora": "^6.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
